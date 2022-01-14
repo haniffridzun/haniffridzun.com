@@ -1,99 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- basic page needs -->
+		<!-- Basic Needs -->
 		<meta charset="utf-8" />
 		<title>Haniff Ridzun</title>
 		<meta name="author" content="Haniff Ridzun" />
-		<meta name="description" content="Haniff Ridzun's personal website" />
+		<meta name="description" content="Haniff Ridzun's website" />
 		<meta
 			name="keywords"
-			content="Haniff Ridzun, Web Development, Project, Post, Profile, Contact"
+			content="Haniff Ridzun, Web Development, Data Analytics, Information Technology, Portfolio, Linux"
 		/>
-		<!-- mobile specific metas -->
+		<!-- End Basic Needs -->
+		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- font -->
-		<link
-			href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<!-- CSS -->
+		<!-- End Mobile Metas -->
+		<!-- Bootstrap CSS -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
+		<!-- End Bootstrap CSS -->
+		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" />
-		<!-- favicon -->
+		<!-- End Custom CSS -->
+		<!-- Font -->
+		<link rel="stylesheet" href="#" />
+		<!-- End Font -->
+		<!-- Favicon -->
 		<link rel="icon" href="#" type="image/png" />
+		<!-- End Favicon -->
 	</head>
 	<body>
-		<!-- Top Navigation Bar -->
-		<header class="container">
-			<nav class="d-flex flex-wrap justify-content-center py-4 mb-4">
+		<!-- Header -->
+		<header class="nav navbar fixed-top pt-2 pb-0 bd-navbar">
+			<nav
+				class="container container-fluid d-flex flex-wrap justify-content-center py-2"
+				aria-label="Main navigation"
+			>
 				<a
 					href="profile.html"
-					class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-					><img
-						src="img/dp.jpg"
-						width="40"
-						height="40"
-						style="border-radius: 50%; margin-right: 10px"
-						alt="display picture"
-					/><span class="fs-4">Haniff Ridzun</span>
+					class="d-flex align-items-center mb-0 mb-md-0 me-md-auto text-dark text-decoration-none"
+					style="padding-left: 32px; margin-right: 87px"
+					><img src="img/dp.jpg" alt="Logo" class="dp-img" /><span class="fs-4"
+						>Haniff Ridzun</span
+					>
 				</a>
-				<ul class="nav nav-pills">
+				<ul class="nav bd-navbar-nav">
 					<li class="nav-item">
-						<a href="index.html" class="nav-link link-dark" aria-current="page"
+						<a
+							href="index.html"
+							class="nav-link col-6 col-md-auto text-decoration-none text-dark"
 							>Home</a
 						>
 					</li>
 					<li class="nav-item">
 						<a
-							href="activity.html"
-							class="nav-link link-dark"
-							aria-current="page"
-							>Activity</a
+							href="story.html"
+							class="nav-link col-6 col-md-auto text-decoration-none text-dark"
+							>Story</a
 						>
 					</li>
 					<li class="nav-item">
 						<a
 							href="project.html"
-							class="nav-link link-dark"
-							aria-current="page"
+							class="nav-link col-6 col-md-auto text-decoration-none text-dark"
 							>Project</a
 						>
 					</li>
 					<li class="nav-item">
-						<a href="profile.html" class="nav-link" aria-current="page"
+						<a
+							href="profile.html"
+							class="nav-link col-6 col-md-auto text-decoration-none active"
 							>Profile</a
 						>
 					</li>
 				</ul>
 			</nav>
 		</header>
-		<!-- End Top Navigation Bar -->
+		<!-- End Header -->
 		<!-- Main Content -->
-		<main>
-			<div class="container container-fluid">
-				<h1>Profile Page</h1>
-			</div>
-			<!-- Footer -->
-			<footer
-				class="opacity-25 navbar sticky-bottom navbar-white bg-white border-top"
-			>
-				<div class="container container-fluid justify-content-center">
-					<p class="text-center mt-2 mb-2">Developed by Haniff Ridzun</p>
-				</div>
-			</footer>
-		</main>
+		<main></main>
 		<!-- End Main Content -->
+		<!-- Footer -->
+		<footer class="bd-footer fixed-bottom opacity-25">
+			<div
+				class="container container-fluid d-flex flex-wrap justify-content-center py-2"
+			>
+				<a href="profile.html" class="nav-link text-dark"
+					>Developed by Haniff Ridzun</a
+				>
+			</div>
+		</footer>
+		<!-- End Footer -->
+		<!-- Bootstrap JS Script -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+		<!-- End Bootstrap JS Script -->
 	</body>
 </html>
