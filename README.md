@@ -1,7 +1,7 @@
 # my-web-site
-This is my personal website
+This is my personal website where I shared my projects and stories.   
+Visit [Haniff Ridzun](https://haniffridzun.com)
 
-## Concept: Minimalist
+Concept: Minimal
 
-## Theme: Minimal Dark / Minamal Black and White
-
+CSS library: Bootstrap 5
