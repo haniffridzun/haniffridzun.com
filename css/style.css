@@ -18,13 +18,8 @@ a {
 }
 
 ::-webkit-scrollbar {
-	width: 5px;
+	width: 7px;
 }
-
-/* ::-webkit-scrollbar-track {
-	background: #bec2c1;
-	border-radius: 50px;
-} */
 
 ::-webkit-scrollbar-thumb {
 	background: #b6b2bd;
