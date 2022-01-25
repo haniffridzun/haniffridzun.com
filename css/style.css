@@ -2,6 +2,11 @@ img {
 	pointer-events: none;
 }
 
+.img-logo {
+	max-width: 32px;
+	max-height: 32px;
+}
+
 a {
 	text-decoration-line: none;
 }
