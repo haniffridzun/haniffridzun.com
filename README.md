@@ -1,4 +1,4 @@
-# my-web-site
+# My Personal Website
 This is my personal website where I shared my projects and stories.   
 Visit [Haniff Ridzun](https://haniffridzun.com)
 
